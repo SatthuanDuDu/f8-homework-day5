@@ -1,0 +1,163 @@
+* {
+	box-sizing: border-box;
+}
+
+/* Bài số 1 */
+body .cv {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.3;
+	background-color: #b08d88;
+	font-size: 15px;
+}
+
+.container {
+	background-color: #fff;
+	max-width: 800px;
+	max-height: 10000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	text-align: justify;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .cv-title {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+.container .cv-title h1 {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.box-work-experience-and-others {
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.box-work-experience-and-others h2 {
+	margin-bottom: 10px;
+	font-weight: bold;
+	border-bottom: black solid;
+	padding-bottom: 5px;
+}
+
+.job-title {
+	margin-bottom: 20px;
+}
+
+.job-title h3 {
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 10px;
+}
+
+.job-title .job-title-item-list ul {
+	padding-left: 30px;
+	list-style-type: disc;
+	padding-bottom: 5px;
+	font-size: 13px;
+}
+
+/* Bài số 2 */
+.menu-body-background {
+	background-color: #456ccb;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-item-bar {
+	background-color: #3f5cca;
+	display: flex;
+	align-items: center;
+	height: 50px;
+	width: 100%;
+	margin-left: 20px;
+}
+
+.menu-item-bar .menu-item {
+	font-size: 14px;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu-item-bar .menu-item:nth-child(1) {
+	background-color: white;
+	color: black;
+}
+
+/* bài số 3 */
+.form-container {
+	background-color: white;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+	padding-left: 20px;
+	max-width: 700px;
+	font-size: 13px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form-heading {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.register {
+	background-color: #fffbb2;
+	padding-top: 10px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+
+.form-label {
+	display: block;
+	padding-bottom: 5px;
+	font-weight: 600;
+}
+
+.form-input {
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding-left: 8px;
+	outline: none;
+}
+
+.avarta-img {
+	width: 90px;
+	border-radius: 50px;
+	border: solid;
+	cursor: pointer;
+}
+
+.form-vertical {
+	display: block;
+}
+
+.btn {
+	border: none;
+	width: 70px;
+	border: solid;
+	border-radius: 5px;
+	background-color: rgb(252, 202, 0);
+	font-weight: bold;
+}
+
+.form-footer {
+	margin-top: 10px;
+}
+
