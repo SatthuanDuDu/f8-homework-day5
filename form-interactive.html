@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Menu (Zoom day 5)</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body class="form-container">
+		<form action="" class="register" autocomplete="off">
+			<h1 class="form-heading">Register Page</h1>
+			<div class="form-group">
+				<label for="display-name" class="form-label"
+					>Display name</label
+				>
+				<input
+					type="text"
+					id="display-name"
+					placeholder="Display name ..."
+					spellcheck="false"
+					class="form-input"
+                    required
+				/>
+			</div>
+
+			<div class="form-group">
+				<label for="email" class="form-label">Email</label>
+				<input
+					type="text"
+					id="email"
+					placeholder="Email ..."
+					spellcheck="false˝"
+					class="form-input"
+                    required
+				/>
+			</div>
+
+			<div class="form-group">
+				<label for="phone-number" class="form-label"
+					>Phone number</label
+				>
+				<input
+					type="number"
+					id="phone-number"
+					placeholder="Phone number ..."
+					spellcheck="false˝"
+					class="form-input"
+                    required
+				/>
+			</div>
+
+			<div class="form-group">
+				<label for="password" class="form-label">Password</label>
+				<input
+					type="password"
+					id="password"
+					placeholder="Password ..."
+					spellcheck="false˝"
+					class="form-input"
+                    required
+				/>
+			</div>
+
+			<div class="form-group">
+				<label for="confirm-password" class="form-label"
+					>Confirm password</label
+				>
+				<input
+					type="password"
+					id="confirm-password"
+					placeholder="Confirm password ..."
+					spellcheck="false˝"
+					class="form-input"
+                    required
+				/>
+			</div>
+
+			<div class="form-group">
+				<label for="" class="form-label">Gender</label>
+
+				<input type="radio" name="gender" id="male" required/>
+				<label for="male">Male</label>
+
+				<input type="radio" name="gender" id="female" />
+				<label for="female">Female</label>
+
+				<input type="radio" name="gender" id="other" />
+				<label for="other">Others</label>
+			</div>
+
+			<div class="form-group">
+				<label for="date-of-birth" class="form-label"
+					>Date of Birth</label
+				>
+				<input type="date" id="date-of-birth" class="form-input" required/>
+			</div>
+
+			<div class="form-group">
+				<label for="address" class="form-label">Address</label>
+				<input
+					type="input"
+					id="address"
+					placeholder="Address ..."
+					class="form-input"
+                    required
+				/>
+			</div>
+
+			<div class="form-group">
+				<label for="profile-pic" class="form-label"
+					>Profile picture</label
+				>
+				<label for="profile-pic">
+					<img
+						width="100px"
+						src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+						alt=""
+						class="avarta-img"
+					/>
+				</label>
+				<input type="file" id="profile-pic" hidden/>
+			</div>
+
+			<div class="form-group">
+				<label for="form-label">Communication Preferences</label>
+
+				<label for="newsletter-id" class="form-vertical">
+					<input
+						type="checkbox"
+						id="newsletter-id"
+						name="communication-preferences"
+						value="newsletter"
+						checked
+                        required
+					/>
+					Subscribe to Newsletter
+				</label>
+
+				<label for="email-id" class="form-vertical">
+					<input
+						type="checkbox"
+						id="email-id"
+						name="communication-preferences"
+						value="email"
+                        required
+					/>
+					Receive Promotional Emails
+				</label>
+
+				<label for="update-id" class="form-vertical">
+					<input
+						type="checkbox"
+						id="update-id"
+						name="communication-preferences"
+						value="update"
+					/>
+					Get Product Updates
+				</label>
+			</div>
+
+			<div class="form-group form-footer">
+				<button class="btn" >Register</button>
+			</div>
+		</form>
+	</body>
+</html>
+
